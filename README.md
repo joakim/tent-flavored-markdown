@@ -37,7 +37,11 @@ text and `0` is the index of the mention in the `mentions` array.
 
 #### Code
 
-- `code` `` `code` ``
+- inline `code`: `` `code` ``
+- block `code`: 
+  <pre><code>\`\`\`
+code
+\`\`\`</code></pre>
 
 #### Other
 
