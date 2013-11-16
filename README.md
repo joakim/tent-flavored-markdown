@@ -28,20 +28,40 @@ text and `0` is the index of the mention in the `mentions` array.
 
 #### Links
 
-- [link](https://example.com) `[link](https://example.com)`
+###### Links with titles
+
+- [link](https://example.com): `[link](https://example.com)`
+
+###### Bare URLs
+
+- If you put in a bare url like `https://example.com` without a title (e.g. `[link]` in `[link](https://example.com)`) it can be defined by putting it angle brackets, `<` and `>`, which allows us to differentiate it from punctuation around it.
 
 #### Emphasis
 
-- _italic_ `_italic_`
-- **bold** `*bold*`
+- _italic_: `_italic_`
+- **bold**: `*bold*`
 
 #### Code
 
-- `code` `` `code` ``
+- inline `code`: `` `code` ``
+- block `code`: 
+  <pre><code>\`\`\`
+code
+\`\`\`</code></pre>
 
 #### Other
 
-- ~~strikethrough~~ `~strikethrough~`
+- ~~strikethrough~~: `~strikethrough~`
+
+## Other
+
+#### Newlines
+- Newlines in TFM is the same as in standard markdown. Quoted from the Markdown spec: 
+>A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line — a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.
+
+>The implication of the “one or more consecutive lines of text” rule is that Markdown supports “hard-wrapped” text paragraphs. This differs significantly from most other text-to-HTML formatters (including Movable Type’s “Convert Line Breaks” option) which translate every line break character in a paragraph into a `<br />` tag.
+
+>When you do want to insert a `<br />` break tag using Markdown, you end a line with two or more spaces, then type return.
 
 ## Limited Subset
 
