@@ -49,11 +49,11 @@ text and `0` is the index of the mention in the `mentions` array.
 code
 \`\`\`</code></pre>
 
-#### Other
+#### Other (Span Elements)
 
 - ~~strikethrough~~: `~strikethrough~`
 
-## Other
+## Other (General)
 
 #### Newlines
 - Newlines in TFM is the same as in standard markdown. Quoted from the Markdown spec: 
