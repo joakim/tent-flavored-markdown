@@ -36,6 +36,10 @@ text and `0` is the index of the mention in the `mentions` array.
 
 - If you put in a bare url like `https://example.com` without a title (e.g. `[link]` in `[link](https://example.com)`) it can be defined by putting it angle brackets, `<` and `>`, which allows us to differentiate it from punctuation around it.
 
+###### Link indexing
+- You can insert links with a double set of brackets that contain a title for the link as well as a referential ID (`[title][id]). Then, anywhere in your document, you can put the reference: 
+
+
 #### Emphasis
 
 - _italic_: `_italic_`
