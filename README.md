@@ -32,12 +32,14 @@ text and `0` is the index of the mention in the `mentions` array.
 
 - [link](https://example.com): `[link](https://example.com)`
 
+###### Link indexing
+
+- You can insert links with a double set of brackets that contain a title for the link as well as a referential ID (`[title][id])`). Then, anywhere in your document, you can put the reference: `[id]: https://example.com  "Optional Title Here"`.
+
 ###### Bare URLs
 
 - If you put in a bare url like `https://example.com` without a title (e.g. `[link]` in `[link](https://example.com)`) it should be parsed as a URL. But, in some cases you want to set apart a URL from the surrounding punctuation. In this case, the URL can be defined by putting it in angle brackets, `<` and `>`, which allows us to differentiate it from punctuation around it.
 
-###### Link indexing
-- You can insert links with a double set of brackets that contain a title for the link as well as a referential ID (`[title][id])`). Then, anywhere in your document, you can put the reference: `[id]: https://example.com  "Optional Title Here"`.
 
 #### Emphasis
 
