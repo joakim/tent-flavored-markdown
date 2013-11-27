@@ -82,15 +82,21 @@ Result:
 Example:
 ```
 > Quoted text
-> Lorem ipsum,
-> blah blah blah
-> yadda yadda yadda
+>
+>Lorem ipsum,
+>
+>blah blah blah
+>
+>yadda yadda yadda
 ```
 
 Result:
 > Quoted text
+>
 > Lorem ipsum,
+>
 > blah blah blah
+>
 > yadda yadda yadda
 
 - For nested block quotes, put a greater-than (`>`) two or more (how ever many nested levels you wanted) times.
@@ -99,15 +105,21 @@ Example:
 
 ```
 > Quoted text
+>
 > >Lorem ipsum,
+> >
 > >blah blah blah
+>
 > yadda yadda yadda
 ```
 
 Result:
 > Quoted text
+>
 > >Lorem ipsum,
+> >
 > >blah blah blah
+>
 > yadda yadda yadda
 
 #### Links
